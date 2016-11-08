@@ -1,6 +1,10 @@
 package com.manifest.domain;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Department {
+
     private String departmentCode;
     private String departmentName;
 

@@ -1,7 +1,9 @@
 package com.manifest.domain;
 
+import javax.persistence.Entity;
 import java.util.Date;
 
+@Entity
 public class DepartmentEmployee {
     private Employee employee;
     private Department department;

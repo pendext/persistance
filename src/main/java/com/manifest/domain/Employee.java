@@ -1,7 +1,9 @@
 package com.manifest.domain;
 
+import javax.persistence.Entity;
 import java.util.Date;
 
+@Entity
 public class Employee {
     private int employeeNumber;
     private Date birthDate;
